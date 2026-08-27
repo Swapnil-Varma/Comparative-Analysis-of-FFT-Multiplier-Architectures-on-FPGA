@@ -4,7 +4,7 @@
 
 This project presents the design and FPGA implementation of a **power- and area-optimized Fast Fourier Transform (FFT) architecture** by improving the hardware efficiency of the multipliers used in butterfly computation. Since multiplication is one of the most resource-intensive operations in FFT processors, different multiplier architectures are implemented and analyzed to determine their impact on FPGA resource utilization, power consumption, and timing performance.
 
-The project is developed using **VHDL** and implemented on the **Basys 3 FPGA (Artix-7 XC7A35T)** using **Xilinx Vivado**.
+The project is developed using **Verilog** and implemented on the **Basys 3 FPGA (Artix-7 XC7A35T)** using **Xilinx Vivado**.
 
 ---
 
@@ -53,7 +53,7 @@ Each architecture is individually designed, simulated, synthesized, and analyzed
 | Tool | Version |
 |------|---------|
 | Xilinx Vivado | 2025.2 |
-| Language | VHDL |
+| Language | Verilog |
 | FPGA Board | Basys 3 |
 | FPGA Device | Artix-7 XC7A35T |
 
@@ -219,4 +219,4 @@ Feel free to use, modify, and distribute this project for educational and resear
 
 ## Keywords
 
-FPGA, VHDL, FFT, Fast Fourier Transform, Array Multiplier, Vedic Multiplier, Wallace Tree Multiplier, Modified Booth Multiplier, DSP, Vivado, Basys 3, Artix-7, Hardware Optimization, Low Power Design, Area Optimization, Digital Signal Processing.
+FPGA, Verilog, FFT, Fast Fourier Transform, Array Multiplier, Vedic Multiplier, Wallace Tree Multiplier, Modified Booth Multiplier, DSP, Vivado, Basys 3, Artix-7, Hardware Optimization, Low Power Design, Area Optimization, Digital Signal Processing.
